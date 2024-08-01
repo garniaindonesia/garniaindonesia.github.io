@@ -252,6 +252,9 @@ header{
     align-items: center;
     background: #ebdbc8;
 }
+.contact p{
+    margin-top: 1rem;
+}
 .social a{
     font-size: 27px;
     margin: 0.5rem;
