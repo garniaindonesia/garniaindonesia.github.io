@@ -104,16 +104,24 @@ header{
     color: var(--second-color);
 }
 .home-text h1{
-    font-size: 3.2rem;
+    font-size: 6rem;
     color: var(--main-color);
     font-weight: bolder;
     text-transform: uppercase;
+    display: flex;
+    margin: 1rem 0 0rem;
 }
+
+.home-text h1 img{
+    width: 120px;
+    height: 106px;
+}
+
 .home-text h2{
     font-size: 1.8rem;
     font-weight: 600;
     color: var(--second-color);
-    margin: 0.5rem 0 1.4rem;
+    margin: 0rem 0 1.4rem;
 }
 
 .btn{
@@ -293,8 +301,13 @@ header{
         padding: 50px 7%;
     }
     .home-text h1{
-        font-size: 3rem;
+        font-size: 5rem;
     }
+    .home-text h1 img{
+        width: 100px;
+        height: 89px;
+    }
+
     .home-text h2{
         font-size: 1.5rem;
     }
@@ -341,8 +354,14 @@ header{
         font-size: 0.9rem;
     }
     .home-text h1{
-        font-size: 3rem;
+        font-size: 3.5rem;
+        margin: 1rem 0 0rem;
     }
+    .home-text h1 img{
+        width: 75px;
+        height: 63px;
+    }
+
     .home-text h2{
         font-size: 1.2rem;
     }
