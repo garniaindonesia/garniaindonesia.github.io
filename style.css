@@ -173,7 +173,7 @@ header{
     text-transform: uppercase;
     animation: appear ease-in-out;
     animation-timeline: view();
-    animation-range: entry 0% cover 35%; 
+    animation-range: entry 0% cover 40%; 
 }
 .heading span{
     font-size: 1rem;
@@ -220,7 +220,7 @@ header{
     height: 100%;
     object-fit: contain;
     object-position: center;
-    animation: appear ease-in-out;
+    animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 35%; 
 }
@@ -287,8 +287,9 @@ header{
     flex: 1 1 17rem;
     animation: appear2 linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 35%; 
+    animation-range: entry 0% cover 35%;
 }
+
 .about-text{
     flex: 1 1 17rem;
 }
@@ -320,10 +321,11 @@ header{
     color: #fff;
     background: var(--second-color);
     border-radius: 50%;
-    animation: appear ease-in-out;
+    animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 35%; 
+    animation-range: entry 0% cover 12%; 
 }
+
 .social a .bx:hover{
    background: var(--main-color);
 }
