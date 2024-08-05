@@ -323,7 +323,7 @@ header{
     border-radius: 50%;
     animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 12%; 
+    animation-range: entry 0% cover 5%; 
 }
 
 .social a .bx:hover{
