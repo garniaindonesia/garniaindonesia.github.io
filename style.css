@@ -310,6 +310,83 @@ header{
     text-align: justify;
 }
 
+
+/* video section */
+
+.video{
+    margin-top: -4rem;
+}
+
+.video .container{
+    border-radius: 1rem;
+    justify-content: center;
+ }
+
+.video .row{
+    margin-top: -2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: #1e3932; */
+    align-items: center;
+}
+
+.video-card {
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease;
+    margin: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .video-card iframe{
+    width: 450px;
+    height: 250px;
+  } 
+  
+  .video-card:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+  
+  .video-overlay {
+    background-color: #ebdbc8;
+    color: var(--second-color);
+    margin-top: -5px;
+    padding: 5px;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  
+  .video-overlay h3 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .video-overlay p {
+    margin-bottom: 10px;
+    text-align:center;
+  }
+  
+  .video-overlay .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF5733;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .video-overlay .btn:hover {
+    background-color: #E64A19;
+  }
+
 /* contact */
 .contact{
     display: flex;
@@ -458,6 +535,11 @@ header{
         display: flex;
         flex-direction: column;
     }
+
+    .video-card iframe{
+        width: 315px;
+        height: 200px;
+      } 
 }
 
 @media(max-width:364px){
