@@ -259,6 +259,13 @@ header{
 }
 
 /* delivery sec */
+
+.app{
+    margin-top: -2rem;
+}
+.app .heading{
+    margin-bottom: -2rem;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -314,7 +321,7 @@ header{
 /* video section */
 
 .video{
-    margin-top: -4rem;
+    margin-top: 0rem;
 }
 
 .video .container{
@@ -323,7 +330,7 @@ header{
  }
 
 .video .row{
-    margin-top: -2rem;
+    margin-top: -1.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -342,8 +349,8 @@ header{
   }
   
   .video-card iframe{
-    width: 450px;
-    height: 250px;
+    width: 550px;
+    height: 350px;
   } 
   
   .video-card:hover {
